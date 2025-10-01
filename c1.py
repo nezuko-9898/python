@@ -7,3 +7,5 @@ p=morning(10,20)
 print(p.n1)
 print(p.n2)
 
+
+

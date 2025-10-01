@@ -86,4 +86,4 @@ b1=np.array([0,9,8,7,6,5,4,3,2])
 c1 = np.concatenate((a1,b1))
 print(c1)
 
-
+#Array Split 

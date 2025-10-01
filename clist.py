@@ -4,5 +4,6 @@ newlist=[]
 for x in f1:
     if "a" in x:
         newlist.append(x)
-print(x)        
-    
+print(x) 
+print(newlist)       
+                  
