@@ -1,5 +1,5 @@
-from sympy import isprime
+from checkprime import is_prime
 
-num=20
+num=0
 
-print(f" {num} is prime {isprime(num)} ")
+print(f" {num} is prime {is_prime(num)} ")
