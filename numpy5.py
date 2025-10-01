@@ -1,5 +1,6 @@
 # 2D arry
 import numpy as np
+import math
 a = np.array([[10,20,30,40,50],[60,70,80,90,100]])
 
 print(a[0,1])
@@ -60,13 +61,29 @@ r_shape = x1.reshape(2,2,3)
 print(r_shape)
 
 
-#iterating in  numpy
+#iterating in  numpy 1D array
 x2= np.array(['naruto','moring','start'])
 
 for x in x2:
     print(x)
 
 
+# 2D array
 
-    
+x3= np.array([['naruto','moring','pravin'],['mali','star','xavier']])
+for y in x3:
+    for y1 in y:
+        print(y1)
+
+
+
+#join array in pumpy
+
+
+a1=np.array([1,2,3,4,5,6,7,8,9])
+b1=np.array([0,9,8,7,6,5,4,3,2])
+
+c1 = np.concatenate((a1,b1))
+print(c1)
+
 
